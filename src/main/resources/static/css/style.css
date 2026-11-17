@@ -1,13 +1,35 @@
 @charset "UTF-8";
 body {
-font-family: Arial, sans-serif;
-background-color: #ffffff;
-color: #20304a;
-padding: 30px;
+	font-family: Arial, sans-serif;
+	background-color: #eef7ff;
+	color: #20304a;
+	padding: 30px;
 }
 h1 {
-color: #249b80;
+	color: #249b80;
+	font-size:72px;
 }
 h2{
 	color:#52a2f1;
+}
+.game-card {
+	background-color: #ffffff;
+	padding: 24px;
+	border: 1px solid #dce5ec;
+	border-radius: 18px;
+	text-align: center;
+}
+.game-card button {
+	background-color: #00ff00;
+	color: yellow;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 10px;
+}
+#score {
+	font-size: 100px;
+}
+button:hover {
+	background-color: #245f40;
+	border:1px solit #ff0000;
 }
