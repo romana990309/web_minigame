@@ -3,8 +3,16 @@
 	h1{
 				margin: 10px 0;
 				font-size: 50px;
-				color: #1488BA;			
+				color: rgb(255, 255, 255);			
 		  }
-    background{
-		 color:#C2DCF0;
-		  }
+    body{
+    			background-color:#003b5b;
+    			font-family: sans-serif;
+   		  }
+   		.card {
+   			padding: 24px;
+			background: white;
+			border: 1px solid #e5e5e5;
+			border-radius: 18px;
+			box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+   		}
